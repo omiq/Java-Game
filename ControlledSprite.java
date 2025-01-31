@@ -10,7 +10,7 @@ import javax.imageio.ImageIO;
 
 public class ControlledSprite extends JPanel implements KeyListener {
     private BufferedImage sprite; // Stores the sprite image
-    private int x = 200, y = 100; // Initial sprite position
+    private int x = 250-16, y = 150-32; // Initial sprite position
     private final int SPEED = 200; // Movement speed (pixels per second)
     private boolean up, down, left, right; // Movement flags
     private long lastTime; // Stores the last frame's timestamp
